@@ -1,5 +1,4 @@
 * {
-  border: 1px solid red;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -9,7 +8,6 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
   border: 1px solid #000000;
 }
 
@@ -105,6 +103,12 @@ main {
   height: 100%;
   margin: 0px;
   padding: 0px;
+}
+
+.cardBody {
+  color: blue;
+  background-color: white;
+  border: 1px solid white;
 }
 
 /*# sourceMappingURL=estilo.css.map */
