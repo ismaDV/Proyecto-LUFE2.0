@@ -27,11 +27,7 @@ h1 {
 }
 
 .navLink {
-    color: $color-fuentes;
-    text-transform: uppercase;
-    display: flex;
-    padding: 10px;
-    border-radius: 50px;
+    @include navLink;
 }
 
 .navbar-toggler-icon {
