@@ -1,8 +1,8 @@
 footer {
     display: flex;
     bottom: 0px;
-    color: #e08514;
-    background-color: black;
+    color: $color-fuentes;
+    background-color: $color-fondo;
     align-items: center;
 }
 
@@ -17,7 +17,7 @@ footer {
 .Derechos {
     display: flex;
     width: 100%;
-    color: #e08514;
+    color: $color-fuentes;
     justify-content: center;
     align-items: center;
 }

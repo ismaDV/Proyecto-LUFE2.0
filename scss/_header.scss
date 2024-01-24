@@ -1,21 +1,21 @@
 header {
     border-top: 0px;
-    color: #e08514;
+    color: $color-fuentes;
     position: relative;
     justify-content: space-between;
     top: 0px;
-    background-color: black;
+    background-color: $color-fondo;
 }
 
 h1 {
-    color: #e08514;
+    color: $color-fuentes;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .navbarFull {
-    color: #e08514;
+    color: $color-fuentes;
     justify-content: end;
 }
 
@@ -26,8 +26,8 @@ h1 {
     justify-content: left;
 }
 
-.nav-link {
-    color: #e08514;
+.navLink {
+    color: $color-fuentes;
     text-transform: uppercase;
     display: flex;
     padding: 10px;
@@ -35,5 +35,5 @@ h1 {
 }
 
 .navbar-toggler-icon {
-    background-color: #e08514;
+    background-color: $color-fuentes;
 }
