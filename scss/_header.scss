@@ -27,6 +27,12 @@ h1 {
     @include navLink;
 }
 
+
+.navLink:hover {
+    color: $color-fondo;
+    background-color: $color-fuentes;
+}
+
 .navbar-toggler-icon {
     background-color: $color-fuentes;
 }

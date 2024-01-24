@@ -48,6 +48,11 @@ h1 {
   border-radius: 50px;
 }
 
+.navLink:hover {
+  color: #000000;
+  background-color: #e08514;
+}
+
 .navbar-toggler-icon {
   background-color: #e08514;
 }
