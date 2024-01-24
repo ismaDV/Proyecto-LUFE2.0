@@ -11,3 +11,11 @@
     background-color: white;
     border: 1px solid white;
 }
+
+@mixin logoLufe {
+    width: 180px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start
+}
