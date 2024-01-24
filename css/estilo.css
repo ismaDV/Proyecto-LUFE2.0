@@ -1,96 +1,102 @@
 * {
-    border: 1px solid red;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
 }
 
 header {
-    border-top: 0px;
-    color: #e08514;
-    position: relative;
-    justify-content: space-between;
-    top: 0px;
-    background-color: black;
+  border-top: 0px;
+  color: #e08514;
+  position: relative;
+  justify-content: space-between;
+  top: 0px;
+  background-color: black;
 }
 
-
-
 h1 {
-    color: #e08514;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #e08514;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbarFull {
-    color: #e08514;
-    justify-content: end;
+  color: #e08514;
+  justify-content: end;
 }
 
 .logoLufe {
-    width: 180px;
-    cursor: pointer;
-    display: flex;
-    justify-content: left;
+  width: 180px;
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
 }
 
-
 .nav-link {
-    color: #e08514;
-    text-transform: uppercase;
-    display: flex;
-
-    padding: 10px;
-    border-radius: 50px;
-
+  color: #e08514;
+  text-transform: uppercase;
+  display: flex;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 .navbar-toggler-icon {
-
-    background-color: #e08514;
-
-}
-
-.logoWhatsapp {
-    width: 80px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-}
-
-.entrenaConNosotros {
-    position: fixed;
-    bottom: 20px;
-    right: 130px;
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: #58CF45;
-    padding: 9px 25px;
-    border-radius: 40px;
+  background-color: #e08514;
 }
 
 footer {
-    display: flex;
-    bottom: 0px;
-    color: #e08514;
-    background-color: black;
-    align-items: center;
+  display: flex;
+  bottom: 0px;
+  color: #e08514;
+  background-color: black;
+  align-items: center;
 }
 
 .logoLufe2 {
-    width: 180px;
-    cursor: pointer;
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
+  width: 180px;
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
 }
 
 .Derechos {
-    display: flex;
-    width: 100%;
-    color: #e08514;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  color: #e08514;
+  justify-content: center;
+  align-items: center;
 }
+
+.logoWhatsapp {
+  width: 80px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.entrenaConNosotros {
+  position: fixed;
+  bottom: 20px;
+  right: 130px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #58CF45;
+  padding: 9px 25px;
+  border-radius: 40px;
+}
+
+main {
+  background-color: black;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,39 @@
+header {
+    border-top: 0px;
+    color: #e08514;
+    position: relative;
+    justify-content: space-between;
+    top: 0px;
+    background-color: black;
+}
+
+h1 {
+    color: #e08514;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarFull {
+    color: #e08514;
+    justify-content: end;
+}
+
+.logoLufe {
+    width: 180px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+}
+
+.nav-link {
+    color: #e08514;
+    text-transform: uppercase;
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.navbar-toggler-icon {
+    background-color: #e08514;
+}
