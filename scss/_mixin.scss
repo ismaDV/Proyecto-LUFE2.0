@@ -19,3 +19,8 @@
     justify-content: left;
     align-items: flex-start
 }
+
+@mixin cardImagen {
+    width: 100%;
+    height: 100%;
+}
