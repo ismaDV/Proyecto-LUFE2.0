@@ -118,6 +118,10 @@ footer {
   height: 100%;
 }
 
+.cardServicios {
+  border: none;
+}
+
 .form {
   background-color: #e8e8e8;
   width: 100%;
