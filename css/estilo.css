@@ -8,7 +8,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  border: 1px solid #000000;
+  border: none;
 }
 
 .clubNordelta {
@@ -125,6 +125,9 @@ footer {
 }
 
 .cardServicios {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   border: none;
   color: #e08514;
 }
