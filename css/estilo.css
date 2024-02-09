@@ -204,9 +204,9 @@ footer {
 .right button {
   border: none;
   border-radius: 0;
-  background: #252525;
+  background: #e08514;
   width: 180px;
-  color: #fff;
+  color: #000000;
   padding: 15px 0;
   display: inline-block;
   font-size: 16px;
@@ -215,7 +215,8 @@ footer {
 }
 
 .right button:hover {
-  background: #252525;
+  color: #e08514;
+  background-color: #000000;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

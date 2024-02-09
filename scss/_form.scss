@@ -54,9 +54,9 @@
 .right button {
     border: none;
     border-radius: 0;
-    background: #252525;
+    background: $color-fuentes;
     width: 180px;
-    color: #fff;
+    color: $color-fondo;
     padding: 15px 0;
     display: inline-block;
     font-size: 16px;
@@ -65,7 +65,8 @@
 }
 
 .right button:hover {
-    background: #252525;
+    color: $color-fuentes;
+    background-color: $color-fondo;
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
