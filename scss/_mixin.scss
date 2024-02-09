@@ -7,7 +7,6 @@
 }
 
 @mixin cardBody {
-    color: blue;
     background-color: white;
     border: 1px solid white;
 }
@@ -27,4 +26,17 @@
 
 @mixin cardServicios{
     border: none;
+}
+
+@mixin cardTitle{
+    color: $color-fuentes;
+    background-color: $color-fondo;
+    text-align: center;
+}
+
+@mixin btnInfo{
+    color: $color-fondo;
+    background-color: $color-fuentes;
+    border: none;
+    
 }

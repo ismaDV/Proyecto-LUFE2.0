@@ -8,7 +8,7 @@
 }
 
 .rowform {
-    box-shadow: 0 2px --5px black;
+    box-shadow: 0 2px -5px black;
     background: #fff;
 }
 
@@ -43,8 +43,13 @@
 }
 
 .formControl {
-    border: 2pxsolid #000;
+    border: 0,5px solid #000;
 }
+
+.formControl :hover {
+    border: 2px solid #000;
+}
+
 
 .right button {
     border: none;

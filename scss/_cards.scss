@@ -10,9 +10,28 @@
 }
 
 .cardBody {
-    @include cardImagen
+    @include cardImagen;
 }
 
 .cardServicios{
     border: none;
+    color: $color-fuentes;
+}
+
+.cardTitle {
+    @include cardTitle;
+}
+
+.btnInfo {
+    @include btnInfo;
+}
+
+.btnInfo:hover{
+    color: $color-fuentes;
+    background-color: $color-fondo;
+}
+
+.cardText{
+    color: $color-fuentes;
+    
 }
